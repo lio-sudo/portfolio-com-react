@@ -22,8 +22,12 @@ const meusProjetos = [
     categoria: "React",
     links: [
       {
-        label: "Ver no GitHub",
-        url: "https://github.com/pedroalex/portfolio-react",
+        label: "Ver projeto",
+        url: "https://lio-sudo.github.io/portfolio-com-react/",
+      },
+      {
+        label: "Ver repositório",
+        url: "https://github.com/lio-sudo/portfolio-com-react",
       },
     ],
   },
