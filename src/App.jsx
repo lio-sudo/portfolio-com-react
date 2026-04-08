@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "./components/Header";
 import ProjectsSection from "./components/ProjectsSection";
+import perfilImg from "../assets/img/perfil.jpg";
 
 const initialForm = {
   nome: "",
@@ -60,7 +61,7 @@ export default function App() {
           </div>
 
           <div className="hero-card">
-            <img src="/assets/img/perfil.jpg" alt="Foto de João Leonis" />
+            <img src={perfilImg} alt="Foto de João Leonis" />
             <div className="hero-card-content">
               <p className="hero-card-label">Disponível para</p>
               <h2>Projetos web e colaborações em tecnologia</h2>
